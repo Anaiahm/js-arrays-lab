@@ -22,6 +22,7 @@ Complete Exercise 2 in the space below:
 foods.push('pizza', 'cheeseburger')
 
 
+
 console.log('Exercise 2 result:', foods);
 
 /*
@@ -152,12 +153,13 @@ Complete Exercise 11 in the space below:
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 const odds = [];
-for (let i = 0; nums % 2 > 0; i++) {
-    odds.push(nums)
+for (let i = 0; nums % 2 == 1; i++) {
+   odds.push(nums)
 }
 
 console.log('Exercise 11 result:', odds);
 
+// I finished #1-10 onthe first day we covered arrays but i cannot for the life of me figure out #11 and i have been so stuck on it that i have done nothing else.
 /*
 Exercise 12: FizzBuzz with arrays
 
@@ -204,6 +206,8 @@ const numArrays = [
 ];
 
 console.log('Exercise 13 result:', numList);
+
+
 
 /*
 Exercise 14: Accessing within nested arrays
